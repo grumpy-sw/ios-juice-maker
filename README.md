@@ -185,4 +185,10 @@
 - 오토레이아웃을 위한 Stack View와 Constraints의 활용
 
 ## STEP 3 PR 후 개선사항
-
+- 프로토콜과 프로토콜의 메서드 이름 수정
+- delegate를 약한 참조로 선언
+- 변경된 과일만 데이터로 전송하는 로직 제거
+- 뷰 사이에 데이터 전달할 때 fruitStore를 전달해서 재고 데이터를 직접 바꾸도록 변경
+- 커스텀 클래스 JuiceButton, FruitLabel, FruitStepper 추가
+- Stepper를 누를 때마다 각 과일의 재고를 증감하도록 변경
+- 파일 분리
